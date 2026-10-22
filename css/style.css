@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+.tnr-table th,
+        .tnr-table td {
+            border: 1px solid;
+        }
+.header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    width: 100px;
+    height: auto;
+}
+.nav-list {
+    display: flex;
+    list-style: none;  
+    gap: 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.section-hero {
+    background-image: url("https://newsgpcdn.vshcdn.net/i/images/4977/ferrari-2026_f.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Luckiest Guy";
+    font-size: 68px;
+}
+
+.currently-title {
+    color: #000000;
+    text-align: center;
+    font-family: "Luckiest Guy";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.currently-item {
+    background-color: #ff0000;
+    font-family: "Google Sans";
+}
+.currently-item2 {
+    background-color: rgba(0, 0, 255, 1);
+    font-family: "Google Sans";
+}
+
+.item-title {
+    color: var(--first-mova-text);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.00;
+}
+
+.item-desc {
+    color: var(--second-mova-text);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.00;
+}
+.to-next-race {
+    background-color: #fff;
+    color: #000
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.tnr-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.00;
+    display: flex;
+    justify-content: center;
+    font-family: "Luckiest Guy";
+}
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer-logo {
+    width: 100px;
+    height: auto;
+}
